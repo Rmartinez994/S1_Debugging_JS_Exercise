@@ -8,7 +8,7 @@
       Tuba Farm Equipment
       Tractor selector page
       
-      Author: 
+      Author: Rafael Martinez 
       Date:   
 
       Filename: tractor.html
@@ -19,8 +19,8 @@
     <title>Tuba Farm Equipment - Tractor Selector</title>
     <link rel="stylesheet" href="tuba.css" />
     <!--[if lt IE 9]>
-      <link rel="stylesheet" href="tubaie.css" />
-   <![endif]-->
+     <link rel="stylesheet" href="tubaie.css" />
+  <![endif]-->
     <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <script src="modernizr.custom.05819.js"></script>
 </head>
@@ -34,12 +34,24 @@
 
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Selectors</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Weather</a></li>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">History</a>
+                </li>
+                <li>
+                    <a href="#">Products</a>
+                </li>
+                <li>
+                    <a href="#">Selectors</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Weather</a>
+                </li>
             </ul>
         </nav>
 
@@ -47,12 +59,16 @@
             <h2>Tractor Selector</h2>
             <form>
                 <fieldset>
-                    <legend><span>How many acres do you cultivate?</span></legend>
+                    <legend>
+                        <span>How many acres do you cultivate?</span>
+                    </legend>
                     <input type="number" id="acres" name="acres" />
                     <label for="acres">acres</label>
                 </fieldset>
                 <fieldset>
-                    <legend><span>Which crops do you grow?</span></legend>
+                    <legend>
+                        <span>Which crops do you grow?</span>
+                    </legend>
                     <input type="checkbox" id="wheat" name="crops" value="wheat" />
                     <label for="wheat">Wheat</label>
                     <input type="checkbox" id="corn" name="crops" value="corn" />
@@ -69,12 +85,16 @@
                     <label for="rice">Rice</label>
                 </fieldset>
                 <fieldset>
-                    <legend><span>How many months per year do you work your fields?</span></legend>
+                    <legend>
+                        <span>How many months per year do you work your fields?</span>
+                    </legend>
                     <input type="number" id="months" name="months" />
                     <label for="months">months</label>
                 </fieldset>
                 <fieldset>
-                    <legend><span>Which is your preferred fuel source?</span></legend>
+                    <legend>
+                        <span>Which is your preferred fuel source?</span>
+                    </legend>
                     <input type="radio" name="fuel" id="E85" value="E85" />
                     <label for="E85">E85</label>
                     <input type="radio" name="fuel" id="biodiesel" value="biodiesel" />
